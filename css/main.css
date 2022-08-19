@@ -2,30 +2,25 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: local(""),
-    url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"),
-    url("../fonts/poppins-v20-latin-regular.woff") format("woff");
+  src: local(""), url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff");
 }
 @font-face {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"),
-    url("../fonts/poppins-v20-latin-500.woff") format("woff");
+  src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff");
 }
 @font-face {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
-    url("../fonts/poppins-v20-latin-600.woff") format("woff");
+  src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff");
 }
 @font-face {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
-    url("../fonts/poppins-v20-latin-700.woff") format("woff");
+  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff");
 }
 *,
 *::after,
@@ -42,7 +37,7 @@ body {
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -51,8 +46,9 @@ body {
 }
 
 .container {
-  max-width: 1152px;
+  max-width: 1400px;
   padding: 0 20px;
+  overflow-x: hidden;
 }
 
 .easy__list {
@@ -124,4 +120,4 @@ body {
 .easy__list-items-wrapper {
   display: flex;
   flex-direction: row-reverse;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
