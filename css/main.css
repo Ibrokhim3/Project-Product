@@ -43,4 +43,9 @@ body {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0 20px;
 }/*# sourceMappingURL=main.css.map */
